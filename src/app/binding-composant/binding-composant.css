@@ -1,0 +1,45 @@
+.binding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+    padding: 10px 0;
+    border: 4px solid red;
+}
+
+.binding h2 {
+    margin: 0;
+}
+
+.binding button {
+    font-size: 18px;
+    width: 50%;
+}
+
+.binding p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.binding input {
+    width: 80%;
+    font-size: 15px;
+    padding: 5px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.fullname {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.binding img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid black;
+}

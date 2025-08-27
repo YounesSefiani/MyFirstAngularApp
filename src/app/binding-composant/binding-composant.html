@@ -1,0 +1,10 @@
+<div class="binding">
+    <div class="fullname">
+    <h2>{{user.firstName}}</h2><h2>{{user.name}}</h2>
+    </div>
+    <button (click)="toggleAge()">{{ showAge ? "Masquer l'âge" : "Afficher l'âge" }}</button>
+    <p *ngIf="showAge">Âge : {{ user.age }}</p>
+    <img [src]="user.img" alt="user.name" />
+        <p style="font-style: italic;">"{{ user.quote }}"</p>
+        <input type="text" [(ngModel)]="user.quote"/>
+</div>
